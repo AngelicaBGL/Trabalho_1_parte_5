@@ -1,0 +1,119 @@
+/* Reseta estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container centralizado */
+.container {
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Cabeçalho */
+h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Menu de navegação */
+nav {
+    text-align: center;
+    background-color: #444;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #c4c4c4;
+    border-radius: 5px;
+}
+
+/* Estilo da seção principal */
+h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Estilo da tabela de galeria */
+.gallery-table {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-table td {
+    padding: 10px;
+}
+
+.gallery-table img {
+    width: 100%;
+    max-width: 200px;  /* Ajuste o tamanho máximo */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #646060;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer table {
+    width: 100%;
+    text-align: left;
+}
+
+footer table td {
+    padding: 10px;
+}
+
+footer table img {
+    vertical-align: middle;
+    margin-right: 10px;  /* Espaço entre ícones e texto */
+    width: 20px;  /* Ajuste o tamanho dos ícones */
+}

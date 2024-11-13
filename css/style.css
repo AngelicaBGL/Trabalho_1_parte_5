@@ -1,0 +1,92 @@
+/* Reseta estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc9c9;
+    color: #333;
+}
+
+/* Cabeçalho */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc9c9;
+    color: #646060;
+    margin-bottom: 20px;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #646060;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #353837;
+    border-radius: 5px;
+}
+
+/* Estilo das seções */
+section {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #646060;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+/* Estilo da tabela de contato */
+footer table {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+footer table td {
+    padding: 10px;
+}
+
+footer table img {
+    vertical-align: middle;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #646060;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
