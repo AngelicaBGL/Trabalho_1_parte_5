@@ -15,11 +15,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
 }
 
 /* Container centralizado */
 .container {
     width: 70%;
+    max-width: 1200px;
     margin: 20px auto;
     background-color: white;
     border-radius: 8px;
@@ -75,23 +77,31 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Estilo da tabela de galeria */
-.gallery-table {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
+/* Estilo da galeria usando Flexbox */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-.gallery-table td {
-    padding: 10px;
-}
-
-.gallery-table img {
+.gallery-container img {
     width: 100%;
-    max-width: 200px;  /* Ajuste o tamanho máximo */
+    max-width: 200px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    body {
+        align-items: stretch;
+    }
 }
 
 /* Estilo do rodapé */
@@ -114,6 +124,6 @@ footer table td {
 
 footer table img {
     vertical-align: middle;
-    margin-right: 10px;  /* Espaço entre ícones e texto */
-    width: 20px;  /* Ajuste o tamanho dos ícones */
+    margin-right: 10px;
+    width: 20px;
 }
