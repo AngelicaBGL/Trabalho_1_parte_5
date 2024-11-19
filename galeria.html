@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta tag de responsividade -->
     <meta name="description" content="Galeria de fotos da Clínica ABC Health">
     <title>ABC Health - Galeria</title>
     <link rel="stylesheet" href="css/galeria.css">
@@ -17,20 +18,17 @@
             </ul>
         </nav>
         <h2>Nossa Estrutura</h2>
-        <table class="gallery-table">
-            <tr>
-                <td><img src="images/imagem1.jpg" alt="Médico escrevendo receita"></td>
-                <td><img src="images/imagem2.jpg" alt="Médico atendendo uma idosa"></td>
-                <td><img src="images/imagem3.jpg" alt="Médica diagnosticando uma moça"></td>
-                <td><img src="images/imagem4.jpg" alt="Consultório"></td>
-            </tr>
-            <tr>
-                <td><img src="images/imagem5.jpg" alt="Recepção"></td>
-                <td><img src="images/imagem6.jpg" alt="Equipe médica"></td>
-                <td><img src="images/imagem7.jpg" alt="Médica atendendo crianças"></td>
-                <td><img src="images/imagem8.jpeg" alt="Médica atendendo crianças"></td>
-            </tr>
-        </table>
+        <div class="gallery-container">
+            <!-- Substituindo a tabela por uma div com imagens -->
+            <img src="images/imagem1.jpg" alt="Médico escrevendo receita">
+            <img src="images/imagem2.jpg" alt="Médico atendendo uma idosa">
+            <img src="images/imagem3.jpg" alt="Médica diagnosticando uma moça">
+            <img src="images/imagem4.jpg" alt="Consultório">
+            <img src="images/imagem5.jpg" alt="Recepção">
+            <img src="images/imagem6.jpg" alt="Equipe médica">
+            <img src="images/imagem7.jpg" alt="Médica atendendo crianças">
+            <img src="images/imagem8.jpeg" alt="Médica atendendo crianças">
+        </div>
         <footer>
             <h3>Contato</h3>
             <table>
@@ -43,7 +41,7 @@
                     <td><p>(11) 4002-8922</p></td>
                 </tr>
                 <tr>
-                    <td><img src="images/email.png" alt="Ícone de e-mail" width="20" ></td>
+                    <td><img src="images/email.png" alt="Ícone de e-mail" width="20"></td>
                     <td><p>clinicaabchealth@email.com</p></td>
                 </tr>
             </table>
